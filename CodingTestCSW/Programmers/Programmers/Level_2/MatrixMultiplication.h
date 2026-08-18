@@ -28,7 +28,7 @@ public:
 		int innerSize = arr1[0].size();
 
 		vector<vector<int>> answer(rowSize, vector<int>(colSize, 0));
-
+		
 		// i 루프: 앞 행렬(A)에서 계산할 행을 하나 고정
 		for (int i = 0; i < rowSize; ++i)
 		{

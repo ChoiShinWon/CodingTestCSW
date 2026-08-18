@@ -1,13 +1,13 @@
 #include <iostream>
-#include "MatrixMultiplication.h"
+#include "Algorithm/Sort/MergeSort.h"
 
 using namespace std;
 
 int main()
 {
-    cout << "===== Programmers Test Runner =====" << endl;
-    MatrixMultiplication M;
-    M.ExecuteTest();
+    cout << "===== Test Runner =====" << endl;
+    MergeSort MS;
+    MS.ExecuteTest();
     
 
     return 0;

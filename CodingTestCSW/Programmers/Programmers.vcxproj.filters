@@ -29,11 +29,14 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="KthNumber.h">
+    <ClInclude Include="Programmers\Level_1\KthNumber.h">
       <Filter>Level_1</Filter>
     </ClInclude>
-    <ClInclude Include="MatrixMultiplication.h">
+    <ClInclude Include="Programmers\Level_2\MatrixMultiplication.h">
       <Filter>Level_2</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\Sort\MergeSort.h">
+      <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

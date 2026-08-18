@@ -29,8 +29,9 @@ public:
 			// 시작 인덱스 부터 끝 인덱스까지 추출
 			vector<int> slicedArray(array.begin() + startIdx, array.begin() + endIdx);
 
+			
 			// 추출한 배열을 정렬
-			sort(slicedArray.begin(), slicedArray.end());
+			/*sort(slicedArray.begin(), slicedArray.end());*/
 
 			answer.push_back(slicedArray[targetIdx]);
 		}

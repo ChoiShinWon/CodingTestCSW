@@ -24,6 +24,7 @@
     <ProjectGuid>{522f343f-fe8c-4940-bcd1-62407cf0993e}</ProjectGuid>
     <RootNamespace>Programmers</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Practice</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -126,8 +127,9 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="KthNumber.h" />
-    <ClInclude Include="MatrixMultiplication.h" />
+    <ClInclude Include="Algorithm\Sort\MergeSort.h" />
+    <ClInclude Include="Programmers\Level_1\KthNumber.h" />
+    <ClInclude Include="Programmers\Level_2\MatrixMultiplication.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
