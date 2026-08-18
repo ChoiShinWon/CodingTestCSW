@@ -1,13 +1,13 @@
 #include <iostream>
-#include "Algorithm/Sort/MergeSort.h"
+#include "Algorithm/Sort/QuickSort.h"
 
 using namespace std;
 
 int main()
 {
     cout << "===== Test Runner =====" << endl;
-    MergeSort MS;
-    MS.ExecuteTest();
+    QuickSort QS;
+    QS.ExecuteTest();
     
 
     return 0;
