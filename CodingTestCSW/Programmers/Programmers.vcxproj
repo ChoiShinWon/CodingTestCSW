@@ -127,6 +127,7 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Algorithm\Sort\InsertionSort.h" />
     <ClInclude Include="Algorithm\Sort\MergeSort.h" />
     <ClInclude Include="Algorithm\Sort\QuickSort.h" />
     <ClInclude Include="Programmers\Level_1\KthNumber.h" />

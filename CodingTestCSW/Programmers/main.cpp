@@ -1,13 +1,13 @@
 #include <iostream>
-#include "Algorithm/Sort/QuickSort.h"
+#include "Algorithm/Sort/InsertionSort.h"
 
 using namespace std;
 
 int main()
 {
     cout << "===== Test Runner =====" << endl;
-    QuickSort QS;
-    QS.ExecuteTest();
+    InsertionSort IS;
+    IS.ExecuteTest();
     
 
     return 0;
