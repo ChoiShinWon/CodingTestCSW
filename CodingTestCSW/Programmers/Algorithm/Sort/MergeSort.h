@@ -20,8 +20,8 @@ private:
 	void Merge(vector<int>& arr, int left, int mid, int right)
 	{
 		vector<int> temp; // 병합 결과를 담을 임시 배열
-		int l = left; // 왼쪽 진영의 탐색 시작점
-		int r = mid + 1; // 오른쪽 진영의 탐색 시작점
+		int l = left; // 왼쪽 진영의 탐색 시작점 (인덱스 번호)
+		int r = mid + 1; // 오른쪽 진영의 탐색 시작점 (인덱스 번호)
 
 		// 양쪽 그룹을 비교하며 더 작은 값부터 temp에 순서대로 삽입
 		while (l <= mid && r <= right)
