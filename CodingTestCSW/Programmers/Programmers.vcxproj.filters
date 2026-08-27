@@ -47,5 +47,8 @@
     <ClInclude Include="Algorithm\Sort\HeapSort.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="Programmers\Level_3\PathFindingGame.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
