@@ -1,13 +1,14 @@
 #include <iostream>
-#include "Algorithm/Sort/InsertionSort.h"
+#include "Programmers/Level_2/MakeItSpicy.h"
+
 
 using namespace std;
 
 int main()
 {
     cout << "===== Test Runner =====" << endl;
-    InsertionSort IS;
-    IS.ExecuteTest();
+    MakeItSpicy MIS;
+    MIS.ExecuteTest();
     
 
     return 0;

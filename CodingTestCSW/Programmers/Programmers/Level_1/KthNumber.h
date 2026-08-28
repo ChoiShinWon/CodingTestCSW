@@ -24,6 +24,8 @@ public:
 			int startIdx = command[0] - 1;
 			// end 구간 바로 앞까지 들어가기 때문에 -1 안함
 			int endIdx = command[1];
+
+			// 타겟 인덱스
 			int targetIdx = command[2] - 1;
 
 			// 시작 인덱스 부터 끝 인덱스까지 추출

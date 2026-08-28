@@ -97,6 +97,7 @@ public:
 		for (int i = 0; i < nodeinfo.size(); i++)
 		{
 			// 노드 번호는 1번부터 시작하므로 i + 1
+			// Node 생성자에 각각 id, x, y 값 삽입
 			nodes.push_back(new Node(i + 1, nodeinfo[i][0], nodeinfo[i][1]));
 		}
 
@@ -106,7 +107,8 @@ public:
 		// 정렬 후 0번 인덱스가 무조건 트리의 루트가 됨
 		Node* root = nodes[0];
 
-		// 3. 루트를 기준으로 나머지 노드들을 트리에 ㅅ ㅏㅂ입
+		// 3. 루트를 기준으로 나머지 노드들을 트리에 삽입
+		// 루트는 빼야 하므로 i는 1부터 시작
 		for (int i = 1; i < nodes.size(); i++)
 		{
 			InsertNode(root, nodes[i]);
