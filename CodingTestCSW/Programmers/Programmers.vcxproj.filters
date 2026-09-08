@@ -53,5 +53,11 @@
     <ClInclude Include="Programmers\Level_2\MakeItSpicy.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="Programmers\Level_1\FindUnfinishedPlayer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Programmers\Level_1\Ponketmon.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
